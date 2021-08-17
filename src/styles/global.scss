@@ -22,4 +22,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: Anm 4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes Anm {
+    0% {
+        opacity: -1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
