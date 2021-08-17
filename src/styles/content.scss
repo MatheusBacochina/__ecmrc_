@@ -1,5 +1,4 @@
-
-.img-content{
+.img-content {
     width: 100%;
     height: 300px;
     background: url("../images/Frangoft.jpg");
@@ -12,20 +11,24 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
+    box-shadow: inset 0px -20px 20px #ebc857;
 }
 
-.melhor-frangobg{
+.melhor-frangobg {
     width: 40%;
     height: 50%;
     background: url("../images/bg-melhor-regiao.png");
     background-position: center;
     background-size: cover;
     margin-right: 30px;
-    
-
-    img{
+    min-width: 300px;
+    img {
         width: 100%;
     }
+}
 
+@media screen and (max-width: 700px) {
+    .melhor-frangobg {
+        display: none;
+    }
 }

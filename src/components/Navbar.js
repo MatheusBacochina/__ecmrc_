@@ -1,20 +1,20 @@
 import styled from 'styled-components'
-import frangologo from '../images/frangofritologo.png'
 
-export const Header = styled.div`
+export const Header = styled.div `
 
-background: linear-gradient(180deg, #FAD662 0%, #E8B921 100%);
+background: linear-gradient(180deg, #FECA0A 0%, #E6B500 100%);
 display: flex;
 justify-content: center;
+filter: drop-shadow(0px 4px 4px #FAD662);
+
 
 
 `
 
 
-export const NavBar = styled.div`
+export const NavBar = styled.div `
 
-width: 100%;
-max-width: 1100px;
+width: 100vw;
 height: 70px;
 display: flex;
 justify-content: center;
@@ -22,17 +22,3 @@ align-items: center;
 
 
 `
-    
-export const LogoNavBar = styled.div`
-
-background: url({LogoImg});
-width: 200px;
-height: 200px;
-background-repeat: no-repeat;
-background-size: cover;
-
-
-`
-
-
-
