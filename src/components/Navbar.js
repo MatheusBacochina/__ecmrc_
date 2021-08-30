@@ -22,3 +22,24 @@ align-items: center;
 
 
 `
+
+export const Links = styled.div `
+
+margin-top: 40px;
+width: 300px;
+height: 70px; 
+background-color: aqua;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background: #FD0000;
+border: 4px solid #FFFFFF;
+border-radius: 18px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 5px 5px 4px rgba(0, 0, 0, 0.25);
+font-family: 'Times New Roman', Times, serif;
+
+
+
+
+`
